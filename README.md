@@ -12,6 +12,8 @@ To run the project, follow the below mentioned steps:
 ```
 ##### Note: Product should be run on localhost
 
+### [Demo](http://saeed3e.github.io/webcomponents-poc)
+
 ### Web Components come up with some interesting features:
 - Define new HTML/DOM elements
 - Create elements that extend from other elements
