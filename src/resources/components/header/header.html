@@ -1,0 +1,23 @@
+<script type="text/javascript">
+    var templateString = `<header class="mnj oh">
+                            <div class="hbIcCont fl" id="iWrp">
+                                <a class="hbIc posR" id="dataIcon"></a>
+                            </div>
+                            <div class="mnjHd">
+                                <a class="logoIc" href="http://www.naukri.com" alt="Naukri.com, India's No.1 Job Site">
+                                </a>
+                            </div>
+                        </header>`;
+    document.registerElement('nk-header', {
+        prototype: Object.create(HTMLElement.prototype, {
+            createdCallback: {
+                value: function() {
+                    this.innerHTML = templateString;
+                },
+                attachedCallback: function() {
+
+                }
+            }
+        })
+    })
+</script>

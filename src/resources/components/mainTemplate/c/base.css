@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+nk-suggestor {
+    display: block;
+    margin-top: 20px;
+}
+
+nk-droope {
+    display: inline-block;
+    width: 49.8%;
+}
+
+.floatCont {
+    padding: 0 10px;
+}
+
+.sSearch {
+    display: none;
+}
+
+.suggest {
+    background-color: #fff;
+    width: 100%;
+}
+
+.w50p {
+    width: 100%;
+    display: inline-block
+}

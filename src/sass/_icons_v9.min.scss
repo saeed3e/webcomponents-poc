@@ -1,0 +1,826 @@
+.alertIc,
+.contDetIc,
+.educateDetIc,
+.empDetIc,
+.itSkillIc,
+.keySkillIc,
+.langIc,
+.mailIcB,
+.persDetIc,
+.profCompIc,
+.projDetIc,
+.recmIc,
+.resumeIc,
+.starIc.whiteIc {
+    background: url(../i/icons-mnj_v1.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.alertIcBg,
+.changePwd,
+.complIc,
+.contactIc,
+.curSel em,
+.dactiv em,
+.delIc,
+.delIcB,
+.dlResIc,
+.errIc,
+.grnTickB,
+.infoIc,
+.loadIc,
+.logoIc,
+.logoutIcGr,
+.mailIcBg,
+.notComplIc,
+.notifIcn,
+.profileVis,
+.queryIc,
+.sendJobIc,
+.shareIc,
+.starIc,
+.successIc {
+    background: url(../i/icons_v1.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px
+}
+
+.aboutIc,
+.appCloseIc,
+.applyHistIc,
+.backIc,
+.cancelIco,
+.cja,
+.contIc,
+.ffIc,
+.filterIc,
+.filterIcSel,
+.hbIc,
+.homeIc,
+.inbIc,
+.j4uIc,
+.loginIc,
+.logoutIc,
+.mainList li,
+.openAppIc,
+.rsetIc,
+.setIc,
+.srchIc {
+    background: url(../i/icons-hamburger_v3.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 .313em 0 0;
+    width: 24px;
+    height: 24px
+}
+
+.alreadyAppIc,
+.close,
+.dollarIc,
+.editIc,
+.editIcGr,
+.eduIc,
+.eduListIc,
+.emailIc,
+.expIc,
+.grnTick,
+.hotJobIc,
+.ksIc,
+.linkIc,
+.locIc,
+.nflIc,
+.personIc,
+.phIcon,
+.postIc,
+.prefJobIc,
+.rupeeIc,
+.saveIc,
+.vacancyIc {
+    background: url(../i/icons16_v3.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px
+}
+
+.dropboxIc,
+.gDriveIc,
+.mobileUpl {
+    background: url(../i/uploadOptions.png) right 0 no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    height: 64px
+}
+
+.openApp em {
+    background: url(../i/android_naukrilogo.png) no-repeat;
+    width: 57px;
+    height: 59px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 10px 0 0
+}
+
+@media screen and (-webkit-device-pixel-ratio:1.5) {
+    .alertIc,
+    .contDetIc,
+    .educateDetIc,
+    .empDetIc,
+    .itSkillIc,
+    .keySkillIc,
+    .langIc,
+    .mailIcB,
+    .persDetIc,
+    .profCompIc,
+    .projDetIc,
+    .recmIc,
+    .resumeIc,
+    .starIc.whiteIc {
+        background: url(../i/icons-mnj-mid_v1.png) 0 0/32px 560px no-repeat
+    }
+    .alertIcBg,
+    .changePwd,
+    .complIc,
+    .contactIc,
+    .curSel em,
+    .dactiv em,
+    .delIc,
+    .delIcB,
+    .dlResIc,
+    .errIc,
+    .grnTickB,
+    .infoIc,
+    .loadIc,
+    .logoIc,
+    .logoutIcGr,
+    .mailIcBg,
+    .notComplIc,
+    .notifIcn,
+    .profileVis,
+    .queryIc,
+    .sendJobIc,
+    .shareIc,
+    .starIc,
+    .successIc {
+        background: url(../i/icons-mid_v1.png) 0 0/24px 662px no-repeat
+    }
+    .aboutIc,
+    .appCloseIc,
+    .applyHistIc,
+    .backIc,
+    .cancelIco,
+    .contIc,
+    .ffIc,
+    .filterIc,
+    .filterIcSel,
+    .hbIc,
+    .homeIc,
+    .inbIc,
+    .j4uIc,
+    .loginIc,
+    .logoutIc,
+    .mainList li,
+    .openAppIc,
+    .rsetIc,
+    .setIc,
+    .srchIc {
+        background: url(../i/icons-hamburger-mid_v2.png) 0 0/24px 667px no-repeat
+    }
+    .alreadyAppIc,
+    .close,
+    .dollarIc,
+    .editIc,
+    .editIcGr,
+    .eduIc,
+    .eduListIc,
+    .emailIc,
+    .expIc,
+    .grnTick,
+    .hotJobIc,
+    .linkIc,
+    .locIc,
+    .personIc,
+    .phIcon,
+    .postIc,
+    .prefJobIc,
+    .rupeeIc,
+    .saveIc,
+    .vacancyIc {
+        background: url(../i/icons16-mid_v1.png) 0 0/16px 518px no-repeat
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio:2) {
+    .alertIc,
+    .contDetIc,
+    .educateDetIc,
+    .empDetIc,
+    .itSkillIc,
+    .keySkillIc,
+    .langIc,
+    .mailIcB,
+    .persDetIc,
+    .profCompIc,
+    .projDetIc,
+    .recmIc,
+    .resumeIc,
+    .starIc.whiteIc {
+        background: url(../i/icons-mnj-large_v1.png) 0 0/32px 560px no-repeat
+    }
+    .alertIcBg,
+    .changePwd,
+    .complIc,
+    .contactIc,
+    .curSel em,
+    .dactiv em,
+    .delIc,
+    .delIcB,
+    .dlResIc,
+    .errIc,
+    .grnTickB,
+    .infoIc,
+    .loadIc,
+    .logoIc,
+    .logoutIcGr,
+    .mailIcBg,
+    .notComplIc,
+    .notifIcn,
+    .profileVis,
+    .queryIc,
+    .sendJobIc,
+    .shareIc,
+    .starIc,
+    .successIc {
+        background: url(../i/icons-large_v1.png) 0 0/24px 662px no-repeat
+    }
+    .aboutIc,
+    .appCloseIc,
+    .applyHistIc,
+    .backIc,
+    .cancelIco,
+    .contIc,
+    .ffIc,
+    .filterIc,
+    .filterIcSel,
+    .hbIc,
+    .homeIc,
+    .inbIc,
+    .j4uIc,
+    .loginIc,
+    .logoutIc,
+    .mainList li,
+    .openAppIc,
+    .rsetIc,
+    .setIc,
+    .srchIc {
+        background: url(../i/icons-hamburger-large_v2.png) 0 0/24px 667px no-repeat
+    }
+    .alreadyAppIc,
+    .close,
+    .dollarIc,
+    .editIc,
+    .editIcGr,
+    .eduIc,
+    .eduListIc,
+    .emailIc,
+    .expIc,
+    .grnTick,
+    .hotJobIc,
+    .linkIc,
+    .locIc,
+    .personIc,
+    .phIcon,
+    .postIc,
+    .prefJobIc,
+    .rupeeIc,
+    .saveIc,
+    .vacancyIc {
+        background: url(../i/icons16-large_v1.png) 0 0/16px 518px no-repeat
+    }
+}
+
+.contDetIc,
+.educateDetIc,
+.empDetIc,
+.itSkillIc,
+.keySkillIc,
+.langIc,
+.persDetIc,
+.projDetIc,
+.resumeIc {
+    margin: 3px 0 5px
+}
+
+.complIc,
+.notComplIc {
+    background-position: 2px -605px;
+    position: absolute;
+    right: -3px;
+    top: 0
+}
+
+.complIc {
+    background-position: 2px -576px
+}
+
+.contDetIc {
+    background-position: 0 -34px
+}
+
+.keySkillIc {
+    background-position: -1px -233px
+}
+
+.empDetIc {
+    background-position: 0 -71px
+}
+
+.projDetIc {
+    background-position: 0 1px
+}
+
+.itSkillIc {
+    background-position: 0 -276px
+}
+
+.educateDetIc {
+    background-position: -1px -106px
+}
+
+.langIc {
+    background-position: -1px -190px
+}
+
+.persDetIc {
+    background-position: 0 -147px
+}
+
+.resumeIc {
+    background-position: 0 -528px
+}
+
+.profCompIc {
+    display: none
+}
+
+.starIc.whiteIc {
+    background-position: -1px -443px
+}
+
+.recmIc {
+    background-position: -5px -484px
+}
+
+.alertIc {
+    background-position: 0 -403px
+}
+
+.mailIc {
+    width: 16px;
+    height: 14px;
+    background-position: 0 -160px
+}
+
+.mailIc.whiteIc {
+    background-position: -22px -160px
+}
+
+.mailIcB.whiteIc {
+    background-position: 0 -353px
+}
+
+.sendJobIc {
+    background-position: 3px -58px;
+    margin: 0 .313em 0 0
+}
+
+.loadIc {
+    margin: 0 .625em 0 0;
+    background-position: 0 2px
+}
+
+.shareIc {
+    background-position: 0 -29px
+}
+
+.starIc {
+    background-position: right -262px
+}
+
+.bookmarkIc,
+.bookmarkIcSel {
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    padding: 0!important
+}
+
+.starIc.bookmarkIcSel {
+    background-position: 0 -290px
+}
+
+.bookmarkIc.noPos {
+    position: static
+}
+
+.errIc {
+    background-position: 0 -87px;
+    margin: 0 10px 0 0
+}
+
+.successIc {
+    background-position: 0 -117px
+}
+
+.curSel em,
+.dactiv em {
+    height: 24px;
+    background-position: 0 -173px;
+    float: right
+}
+
+.curSel em {
+    background-position: -2px -144px
+}
+
+.changePwd,
+.notifIcn,
+.profileVis {
+    margin: 0 .313em 0 0
+}
+
+.notifIcn {
+    background-position: 0 -320px
+}
+
+.profileVis {
+    background-position: 0 -349px
+}
+
+.changePwd {
+    background-position: 0 -378px
+}
+
+.logoutIcGr {
+    background-position: 0 -406px;
+    margin: 0 .313em 0 0
+}
+
+.infoIc {
+    width: 19px;
+    height: 19px;
+    background-position: -2px -144px
+}
+
+.contactIc {
+    margin: 0 .313em 0 0;
+    background-position: 0 -203px
+}
+
+.queryIc {
+    margin: 0 .313em 0 0;
+    background-position: -1px -232px
+}
+
+.delIc,
+.delIc.pos,
+.delIcB {
+    background-position: 0 -435px;
+    margin: -3px 3px 0 0
+}
+
+.delIc.pos {
+    position: absolute;
+    right: .5%;
+    top: 8%;
+    padding: 0
+}
+
+.delIcB.noPos {
+    margin: 10px 0
+}
+
+.delIcB.rep {
+    background-position: center -435px!important;
+    margin: 21px 0 0 10px
+}
+
+.mailIcBg {
+    background-position: 0 -464px
+}
+
+.alertIcBg {
+    background-position: 0 -493px
+}
+
+.grnTickB {
+    background-position: 0 -522px;
+    margin: 3px 2px 0 0!important;
+    display: inline-block!important
+}
+
+.logoIc {
+    background-position: 0 -551px
+}
+
+.dlResIc {
+    background-position: 0 -639px
+}
+
+.locIc {
+    background-position: -1px -40px
+}
+
+.postIc {
+    background-position: 0 -187px
+}
+
+.vacancyIc {
+    background-position: 0 -16px
+}
+
+.dollarIc,
+.locIc,
+.rupeeIc {
+    margin: 1px .313em 0 0
+}
+
+.rupeeIc {
+    background-position: -1px -145px
+}
+
+.dollarIc {
+    background-position: -1px -124px
+}
+
+.eduIc {
+    background-position: 0 -100px;
+    margin: 2px 0 0
+}
+
+.editIc,
+.editIcGr {
+    width: 18px;
+    height: 18px;
+    background-position: 0 -207px
+}
+
+.editIc {
+    background-position: 0 -227px
+}
+
+.linkList .editIcGr.pos {
+    padding: 0;
+    position: absolute;
+    right: 12px;
+    top: 65%
+}
+
+.linkList .delIc.pos {
+    top: 25%
+}
+
+.linkList article .delIc.pos {
+    right: 8px
+}
+
+.personIc {
+    background-position: 0 -355px;
+    margin-right: .313em
+}
+
+.emailIc {
+    background-position: 0 -394px;
+    margin-right: 8px
+}
+
+.linkIc {
+    background-position: 0 -477px;
+    margin-right: .313em
+}
+
+.phIcon {
+    background-position: 0 -82px
+}
+
+.phIcon.whiteIc {
+    background-position: 0 -418px;
+    margin-right: .313em
+}
+
+.hotJobIc,
+.nflIc,
+.prefJobIc {
+    background-position: -1px -271px;
+    margin: 2px 0 0 -20px;
+    vertical-align: top;
+    float: left
+}
+
+.prefJobIc {
+    background-position: -1px -292px
+}
+
+.alreadyAppIc {
+    background-position: -3px -311px;
+    margin: 5px 1px 0 -20px;
+    vertical-align: top;
+    float: left
+}
+
+.eduListIc {
+    background-position: -1px -248px;
+    margin: 2px 0 0
+}
+
+.locIc.whiteIc {
+    background-position: 0 -376px;
+    margin-top: 3px
+}
+
+.expIc,
+.ksIc {
+    width: 18px;
+    height: 16px;
+    margin: 0 .313em 0 0;
+    background-position: 0 2px
+}
+
+.expIc.whiteIc {
+    background-position: 0 -355px;
+    margin-top: 3px
+}
+
+.rupeeIc.whiteIc {
+    background-position: 0 -460px;
+    margin: 3px 7px 0 0
+}
+
+.dollarIc.whiteIc {
+    background-position: 0 -439px;
+    margin: 3px 7px 0 0
+}
+
+.grnTick {
+    background-position: -3px -311px;
+    vertical-align: top
+}
+
+.langDet .grnTick {
+    margin: 6px 0 0
+}
+
+.close {
+    float: right;
+    background-position: center -494px;
+    padding: 7px 15px;
+    background-color: #d2ebff;
+    margin: -29px 0 0;
+    border-radius: 4px 4px 0 0;
+    display: block
+}
+
+.homeIc {
+    background-position: 0 -1px
+}
+
+.srchIc {
+    background-position: 0 -29px
+}
+
+.j4uIc {
+    background-position: -1px -57px
+}
+
+.aboutIc {
+    background-position: -1px -85px
+}
+
+.inbIc {
+    background-position: -1px -142px
+}
+
+.loginIc {
+    background-position: -1px -261px
+}
+
+.loginIc.greyIc {
+    background-position: 1px -586px
+}
+
+.setIc {
+    background-position: -1px -203px
+}
+
+.ffIc {
+    background-position: -1px -174px
+}
+
+.applyHistIc {
+    background-position: -1px -115px
+}
+
+.logoutIc {
+    background-position: 0 -232px
+}
+
+.contIc {
+    background-position: -1px -290px
+}
+
+.openAppIc {
+    background-position: 0 -616px
+}
+
+.appCloseIc {
+    margin: 20px 10px 0 5px;
+    float: right;
+    background-position: 0 -643px;
+    height: 26px
+}
+
+.cja {
+    background-position: 0 -672px
+}
+
+.backIc,
+.hbIc {
+    background-position: 0 -317px;
+    margin: 0;
+    widows: 24px;
+    height: 24px
+}
+
+.backIc {
+    background-position: -1px -346px
+}
+
+.rsetIc {
+    background-position: -1px -434px
+}
+
+.filterIc,
+.filterIcSel {
+    width: 50px;
+    height: 20px;
+    font-size: 11px;
+    text-align: center;
+    background-position: center -377px;
+    margin: 0 0 10px
+}
+
+.filterIcSel {
+    background-position: center -406px
+}
+
+.cropIcn {
+    width: 26px;
+    height: 26px;
+    background-position: 0 -657px
+}
+
+.cancelIco {
+    background-position: 0 -464px;
+    float: right;
+    margin: 12px 5px 0 0
+}
+
+.mainList li {
+    height: auto;
+    background-position: right -506px;
+    width: 100%;
+    margin: 0
+}
+
+.gDriveIc {
+    background-position: center 0
+}
+
+.dropBtn .dropbox-dropin-btn .dropin-btn-status,
+.dropboxIc {
+    background: url(../i/uploadOptions.png) center -76px no-repeat;
+    background-size: inherit
+}
+
+.mobileUpl {
+    background-position: center -156px
+}
+
+.ksIc {
+    background-position: 0 -520px;
+    position: absolute
+}
+
+.nflTuple {
+    background-color: #E7ECEF
+}
+
+.nflTuple .nflIc {
+    background-position: 1px -538px
+}

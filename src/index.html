@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="c/main.css"></link>
+
+    <script type="text/javascript" src="resources/components/mainTemplate/j/jquery.min.js"></script>
+
+    <link rel="import" href="resources/components/header/header.html">
+    <link rel="import" href="resources/components/hamburger/hamburger.html">
+    <link rel="import" href="resources/components/suggestor/suggestor.html">
+    <link rel="import" href="resources/components/droope/droope.html">
+   
+</head>
+
+<body class="wrapper">
+    <div id="slp" class="slpWrp">
+        <!--head initialize from here-->
+        
+        <nk-header></nk-header>
+        
+        <!--main section of page-->
+        <section class="floatCont" id="mainCont">
+
+            <label for="kwd" class="label">Suggestor Component (Keyword): </label>
+
+            <!--skill suggestor initialize here-->
+            <nk-suggestor category='{"skill":"This is skill"}' multisearch='1' appId='119' startsearchafter='2' maxsuggestion='5' showrelatedconcept='false'>
+                <template>
+                    <div class="suggest">
+
+                        <div class="sWrap">
+                            <div class="inpWrap">
+                                <input class="sugInp" type="text" placeholder="Search">
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </nk-suggestor>
+    
+            <label for="kwd" class="label">Suggestor Component (Location): </label>
+
+            <!--Location suggestor initialize here-->
+            <nk-suggestor category='{"location":"This is skill"}' multisearch='1' appId='119' startsearchafter='2' maxsuggestion='5' showrelatedconcept='false'>
+                <template>
+                    <div class="suggest">
+
+                        <div class="sWrap">
+                            <div class="inpWrap">
+                                <input class="sugInp" type="text" placeholder="Search">
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </nk-suggestor>
+            
+            <label for="kwd" class="label ">Droope Component: </label>
+            <!--Minimum Experience dropdown initialize here-->
+            <nk-droope data='{"1":"Delhi","2":"Mumbai","3":"Bangalore","4":"Calcutta"}' maxHeight="300" checkBox="true">
+                <template>
+                    <div class="singleDD w50p">
+                        <div class="dWrap">
+                            <input class="sdTxt w85" type="text" name="abc" placeholder="Minimum Experience" />
+                            <span class="smArw"></span>
+                        </div>
+                    </div>
+                </template>
+            </nk-droope>
+            
+            <!--Maximum Experience dropdown initialize here-->
+
+            <nk-droope data='{"1":"mDelhi","2":"Mumbai","3":"Bangalore","4":"Calcutta"}' maxHeight="300" checkBox="true">
+                <template>
+                    <div class="singleDD w50p">
+                        <div class="dWrap">
+                            <input class="sdTxt w85" type="text" name="abc" placeholder="Maximum Experience" />
+                            <span class="smArw"></span>
+                        </div>
+                    </div>
+                </template>
+            </nk-droope>
+            
+            <!--Search Button-->
+            <input id="sbt" type="submit" class="btn btnSpc mt50" value="Search Jobs">
+        </section>
+    </div>
+
+    <!-- hambergur initialize here-->
+    <nk-hamburger></nk-hamburger>
+</body>
+
+</html>

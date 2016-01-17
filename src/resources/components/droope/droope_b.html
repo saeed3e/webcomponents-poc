@@ -1,0 +1,45 @@
+<script type="text/javascript">
+var data = {
+    "a8.2": "Accounting , Finance",
+    "a32.2": "Advertising , PR , MR , Event Management",
+    "a33": "Agriculture , Dairy",
+    "a42": "Government , Defence",
+    "a61": "Heat Ventilation , Air Conditioning",
+    "a16": "Industrial Products , Heavy Machinery",
+    "a29": "Other"
+};
+
+var proto = Object.create(HTMLElement.prototype);
+
+proto.createdCallback = function() {
+    
+    console.log(this)
+    var content = document.querySelector('#drop').content.querySelector('#dropdownAB');
+    console.log(content)
+    var clone = document.importNode(content, true);
+    this.appendChild(clone);
+       
+
+};
+proto.attachedCallback = function() {
+    console.log(this)
+var mult1 = {
+    id: "dropdownAB",
+    data: $.parseJSON($(this).attr('obj')),
+    maxHeight: 300,
+    checkBox: true
+};
+
+    $(document).ready(function(){
+        var x = new DD(mult1);    
+    })
+
+
+};
+
+document.registerElement('nk-droope', {prototype: proto});
+
+
+
+
+</script>
