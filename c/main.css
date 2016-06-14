@@ -1817,3 +1817,5 @@ nk-droope { display: inline-block; width: 49.8%; }
 .suggest .slideDown { display: block; width: 100%; }
 
 .singleDD .sDrop li { padding: 6px 5px 6px 10px; cursor: pointer; margin: 0; font-size: 12px; font-weight: 700; }
+
+.demo{font-size: 30px;    text-align: center;    box-shadow: 0 0 10px #000;    margin-bottom: 10px;}
