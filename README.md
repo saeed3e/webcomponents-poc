@@ -33,20 +33,20 @@ To run the project, follow the below mentioned steps:
 
 ### Custom Elements
 Custom Elements allow web developers to define new types of HTML elements and even help you custom the newly created DOM element.
-![picture](src/i/customElement.PNG)
+![picture](./i/customElement.PNG)
 
 We just need to register the element and use it in our web application.
-![picture](src/i/registerElement.PNG)
+![picture](./i/registerElement.PNG)
 
 In our project we have used custom elements for:
 - Header of our page
-![picture](src/i/header_ce.PNG)
+![picture](./i/header_ce.PNG)
 - Drawer
-![picture](src/i/drawer_ce.PNG)
+![picture](./i/drawer_ce.PNG)
 - Suggestor
-![picture](src/i/customElement.PNG)
+![picture](./i/customElement.PNG)
 - Droope
-![picture](src/i/droope_ce.PNG)
+![picture](./i/droope_ce.PNG)
 
 
 
@@ -54,18 +54,18 @@ In our project we have used custom elements for:
 
 Shadow DOM addresses the DOM tree encapsulation problem.
 With Shadow DOM, elements can get a new kind of node associated with them. This new kind of node is called a shadow root. An element that has a shadow root associated with it is called a shadow host. The content of a shadow host isn’t rendered; the content of the shadow root is rendered instead.
-![picture](src/i/shadow_root.PNG)
+![picture](./i/shadow_root.PNG)
 
 ### HTML Import
 HTML Imports, part of the Web Components cast, is a way to include HTML documents in other HTML documents. You're not limited to markup either. An import can also include CSS, JavaScript, or anything else an html file can contains.
-![picture](src/i/html_import.PNG)
+![picture](./i/html_import.PNG)
 
 ### HTML Template
 The concept of templating is not new to web development.
 The HTML <template> element represents a template in your markup. It contains "template contents", which acts as pieces of scaffolding that you can use (and reuse) throughout the lifetime of your app.
 
 To create a templated content, declare some markup and wrap it in the <template> element.
-![picture](src/i/droope_temp.PNG)
+![picture](./i/droope_temp.PNG)
 
 
 
